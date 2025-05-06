@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.header {
+  background-image: url('../img/cookie-stack.png'); /* nome da imagem de fundo */
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 5%;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.order-btn {
+  padding: 0.8rem 2rem;
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  background-color: #f7f3f0;
+}
+
+.feature {
+  text-align: center;
+  margin: 1rem;
+  max-width: 200px;
+}
+
+.feature img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.feature h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature a {
+  color: #8b4513;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos para a seção de produtos */
+.product-grid {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f7f3f0;
+}
+
+.product-grid h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Grid de produtos */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+/* Estilo para cada card de produto */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.product-card .order-btn a {
+  font-size: 1rem;
+  background-color: #8b4513;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.product-card .order-btn a:hover {
+  background-color: #6b3c16;
+}
